@@ -4,7 +4,7 @@ public class Q498 {
     public int[] findDiagonalOrder(int[][] mat) {
         int m = mat.length, n = mat[0].length;
         int i = 0, j = 0;
-        int[] res = new int[n * n];
+        int[] res = new int[m * n];
         int[][] dirs = {{-1, 1}, {1, -1}};
         int d = 0;
         for (int k = 0; k < res.length; k++) {
